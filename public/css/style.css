@@ -8,8 +8,8 @@ body{
     grid-template-rows: 12vh auto auto;
     /* font-family: "Nunito", sans-serif; */
     font-family: "Playfair Display", serif;
-    /* background-color: black;
-    color: white; */
+    background-color: black;
+    color: white;
 }
 
 #portada{
@@ -119,7 +119,7 @@ the about us section */
 #values img{
     height: 5vh;
     width: auto;
-    /* background-color: white; */
+    background-color: white;
 }
 
 
