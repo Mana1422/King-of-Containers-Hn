@@ -1,0 +1,85 @@
+#services {
+    display: grid;
+    grid-template-columns: 45vw auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(111, 1, 1);
+    color: white;
+    padding: 2vw;
+    margin: 1vw;
+}
+
+#services p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#service-info h3 {
+    font-size: 30px;
+}
+
+#specialItem{
+    grid-column: span 2;
+}
+
+
+/* img in service section */
+#services .service-logo {
+    width: 40vw;
+    height: auto;
+}
+
+/* Section where the image is in the services section */
+#img-service-section {
+    margin: auto;
+}
+
+/* The Services we offer */
+#option-services {
+    display: grid;
+    grid-template-rows: 27vh 27vh;
+    grid-template-columns: 50% 50%;
+}
+
+/* The options in the service area specifically the "a" elements*/
+#option-services a {
+    margin: auto;
+}
+
+.opt-service:hover{
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.icon-service {
+    height: 10vh;
+    width: auto;
+}
+
+@media (max-width: 1100px) {
+    #option-services a:hover {
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 750px) {
+    #services {
+        grid-template-columns: 100vw;
+        margin-right: 0%;
+        margin: 0;
+    }
+
+    /* img in service section */
+    #services .service-logo {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* The Services we offer */
+    #service-info h3 {
+        margin-top: 2vh;
+    }
+}

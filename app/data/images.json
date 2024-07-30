@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Card 1",
+        "image" : "./public/img/portafolio main/img1.jpg"
+    },
+    {
+        "title": "Card 6",
+        "image" : "./public/img/portafolio main/img6.jpg"
+    },
+    {
+        "title": "Card 11",
+        "image" : "/public/img/portafolio main/img11.jpg"
+    },
+    {
+        "title": "Card 2",
+        "image" : "./public/img/portafolio main/img2.jpg"
+    },
+    {
+        "title": "Card 3",
+        "image" : "./public/img/portafolio main/img3.jpg"
+    },
+    {
+        "title": "Card 4",
+        "image" : "./public/img/portafolio main/img4.jpg"
+    },
+    {
+        "title": "Card 5",
+        "image" : "./public/img/portafolio main/img5.jpg"
+    },
+    {
+        "title": "Card 7",
+        "image" : "./public/img/portafolio main/img7.jpg"
+    },
+    {
+        "title": "Card 8",
+        "image" : "/public/img/portafolio main/img8.jpg"
+    },
+    {
+        "title": "Card 9",
+        "image" : "/public/img/portafolio main/img9.jpg"
+    },
+    
+    {
+        "title": "Card 10",
+        "image" : "/public/img/portafolio main/img10.jpg"
+    },
+    {
+        "title": "Card 12",
+        "image" : "/public/img/portafolio main/img12.jpg"
+    },
+    {
+        "title": "Card 13",
+        "image" : "/public/img/portafolio main/img13.jpg"
+    }
+
+]
