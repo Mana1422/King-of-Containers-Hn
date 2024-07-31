@@ -1,6 +1,6 @@
 const options = {
     // rootMargin: '10px',
-    threshold: 0.4 // the porcentage of visibilty to start the animation
+    threshold: 0.5 // the porcentage of visibilty to start the animation
 };
 
 const observer = new IntersectionObserver((entries) => {
@@ -9,9 +9,10 @@ const observer = new IntersectionObserver((entries) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show');
             // observer.unobserve(entry.target);
-        } else {
-            entry.target.classList.remove('show');
-        }
+        } 
+        // else {
+        //     entry.target.classList.remove('show');
+        // }
     });
 }, options);
 
