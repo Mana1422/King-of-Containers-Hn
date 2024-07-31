@@ -27,8 +27,6 @@
 
 #brand{
     background-color: rgb(111, 1, 1);
-    /* border-top-right-radius: 40%;
-    border-bottom-right-radius: 40%; */
     padding-left: 1vw;
     display: grid;
     grid-template-columns: 30% auto;
@@ -91,6 +89,7 @@
 
     #options a{
         margin: 4vw;
+        font-size: 15px;
     }
 
     #brand{

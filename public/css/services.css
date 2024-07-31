@@ -69,11 +69,37 @@
         grid-template-columns: 100vw;
         margin-right: 0%;
         margin: 0;
+
+        a{
+            font-size: 20px;
+        }
+
+
+        p{
+            font-size: 15px;
+        }
+    }
+
+    .opt-service{
+        padding: 2vw;
+    }
+
+    #option-services {
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+    }
+
+    #specialItem{
+        grid-column: span 1;
+    }
+
+    .opt-service{
+        margin: 1vw;
     }
 
     /* img in service section */
     #services .service-logo {
-        width: 100%;
+        width: 90%;
         height: auto;
     }
 
@@ -81,5 +107,10 @@
     /* The Services we offer */
     #service-info h3 {
         margin-top: 2vh;
+    }
+
+    #img-about img{
+        width: 80%;
+        height: auto;
     }
 }

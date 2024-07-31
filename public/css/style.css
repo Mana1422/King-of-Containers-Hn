@@ -90,6 +90,7 @@ body{
 #img-about{
  /* text-align: right; */
  margin: auto;
+ max-width: 100vw;
 }
 
 /* the image in the section about us */
@@ -102,6 +103,9 @@ body{
 the about us section */
 #desc{
     text-align: center;
+    text-justify: auto;
+    max-width: 100%;
+    padding: 3vw;
 }
 
 /* The mission and vision */
@@ -154,9 +158,24 @@ the about us section */
 
 @media (max-width: 700px){
     #portada{
-        height: 60vh;
+        display: grid;
+        height: 40vh;
         width: auto;
         background-position: 40%;
+        place-content: center;
+        place-items: center;
+        justify-self: auto;
+    }
+#content{
+    overflow-x: hidden;
+}
+
+    #portada h1{
+        font-size: 25px;
+    }
+
+    #portada p{
+        font-size: 20px;
     }
 
     #aboutUs{
