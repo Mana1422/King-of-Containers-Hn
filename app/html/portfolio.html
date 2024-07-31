@@ -51,7 +51,7 @@
     <!-- Nav bar -->
     <div id="navbar">
         <div id="brand">
-            <img src="../../public/img/Logo/logo.png" alt="">
+            <img src="../../public/img/Logo/logo.png" alt="" onclick="location.href='../../index.html';">
             <div id="brandName">
                 <a href="../../index.html">
                     King of Containers Honduras, LLC
@@ -79,7 +79,7 @@
         <span onclick="closeImg()">X</span>
     </div>
 
-    <div id="containers-section" class="gallery-section">
+    <div id="containers-section" class="gallery-section hidden">
         <h3>Containers</h3>
         <!-- containers pictures will get inserted here -->
         <div id="containersGallery" class="image-section"></div>
@@ -94,8 +94,8 @@
 
 
     <br>
-    <div id="equipmentSection" class="gallery-section">
-        <h3>Equipment Transportation</h3>
+    <div id="equipmentSection" class="gallery-section hidden">
+    <h3>Equipment Transportation</h3>
         <!-- Equipment images will go here -->
         <div id="equipmentGallery" class="image-section"></div>
         <div>
@@ -108,7 +108,7 @@
     </div>
 
     <br>
-    <div id="oversizedSection" class="gallery-section">
+    <div id="oversizedSection" class="gallery-section hidden">
         <h3>Oversized Cargo Transportation</h3>
         <!-- oversized cargo goes here -->
         <div id="oversizedGallery" class="image-section"></div>
@@ -122,7 +122,7 @@
     </div>
     <br>
 
-    <div id="officeSection" class="gallery-section">
+    <div id="officeSection" class="gallery-section hidden">
         <h3>Our Office</h3>
         <!-- Office images will go here -->
         <div id="officeGallery" class="image-section"></div>
@@ -175,6 +175,7 @@
     </div>
 
     <script src="../../public/js/gallery.js"></script>
+    <script src="../../public/js/scroll.js"></script>
 </body>
 
 </html>

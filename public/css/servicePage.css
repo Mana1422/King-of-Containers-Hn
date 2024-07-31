@@ -29,4 +29,9 @@
     #cards-Services{
         grid-template-columns: 100%;
     }
+
+    #serviceImg img{
+        width: 100%;
+        height: 40vh;
+    }
 }

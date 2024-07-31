@@ -7,7 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function insertImg(dataPath, section) {
         fetch(dataPath) // get the image from that path it is async
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then(data => {
                 // With the data just make 4 cards
                 for (let i = 0; i < 4; i++) {
@@ -18,7 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <img src="${data[i].image}" alt="${data[i].title}" onclick="openImg(this.src)">`
                     section.appendChild(card); // merge it to the section where it should be
                 }
-            });
+            }).catch(error => {
+                console.error('Error!', error)
+            })
     }
 
     insertImg('../../app/data/containers.json', containerSection); //Inserting the containers images
@@ -26,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     insertImg('../../app/data/oversize.json', oversizeSection); // Inserting the oversize images
     insertImg('../../app/data/office.json', officeSection); // Inserting the office images
 
-    
+
 });
 
 const fullImgBox = document.getElementById('fullImgBox'); // Section where the image selected will expand
