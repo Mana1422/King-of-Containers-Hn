@@ -9,7 +9,12 @@ body{
     /* font-family: "Nunito", sans-serif; */
     font-family: "Playfair Display", serif;
     /* background-color: black;
-    color: white; */
+     */
+     color: rgb(135, 135, 135); 
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(215, 215, 0);
 }
 
 #portada{
