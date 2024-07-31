@@ -85,5 +85,5 @@ function handleLoad(loadBtn, hideBtn, insertArea, dataPath, className) {
 
 handleLoad(loadContainers, hideContainers, insertContainers, '../../app/data/containers.json', 'card-containers');
 handleLoad(loadEquipment, hideEquipment, insertEquipment, '../../app/data/equipment.json', 'card-containers');
-handleLoad(loadOversized, hideOversized, insertOversize, '../../app/data/equipment.json', 'card-containers');
+handleLoad(loadOversized, hideOversized, insertOversize, '../../app/data/oversize.json', 'card-containers');
 
