@@ -12,6 +12,10 @@
         "image" : "../../public/img/containers/img2.jpg"
     },
     {
+        "title": "Card 3",
+        "image" : "../../public/img/containers/img3.jpg"
+    },
+    {
         "title": "Card 4",
         "image" : "../../public/img/containers/img4.jpg"
     },

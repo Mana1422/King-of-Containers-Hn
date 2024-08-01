@@ -1,4 +1,4 @@
-[
+[ 
     {
         "title": "Card 0",
         "image" : "../../public/img/equipment/img0.jpg"
@@ -12,16 +12,16 @@
         "image" : "../../public/img/equipment/img2.jpg"
     },
     {
-        "title": "Card 3",
-        "image" : "../../public/img/equipment/img3.jpg"
-    },
-    {
         "title": "Card 4",
         "image" : "../../public/img/equipment/img4.jpg"
     },
     {
         "title": "Card 5",
         "image" : "../../public/img/equipment/img5.jpg"
+    },
+    {
+        "title": "Card 6",
+        "image" : "../../public/img/equipment/img6.jpg"
     },
     {
         "title": "Card 7",
@@ -60,16 +60,16 @@
         "image" : "../../public/img/equipment/img15.jpg"
     },
     {
-        "title": "Card 16",
-        "image" : "../../public/img/equipment/img16.jpg"
-    },
-    {
         "title": "Card 17",
         "image" : "../../public/img/equipment/img17.jpg"
     },
     {
         "title": "Card 18",
         "image" : "../../public/img/equipment/img18.jpg"
+    },
+    {
+        "title": "Card 19",
+        "image" : "../../public/img/equipment/img19.jpg"
     },
     {
         "title": "Card 20",
@@ -86,10 +86,6 @@
     {
         "title": "Card 23",
         "image" : "../../public/img/equipment/img23.jpg"
-    },
-    {
-        "title": "Card 24",
-        "image" : "../../public/img/equipment/img24.jpg"
     },
     {
         "title": "Card 25",
@@ -110,6 +106,10 @@
     {
         "title": "Card 30",
         "image" : "../../public/img/equipment/img30.jpg"
+    },
+    {
+        "title": "Card 31",
+        "image" : "../../public/img/equipment/img31.jpg"
     }
     
 ]

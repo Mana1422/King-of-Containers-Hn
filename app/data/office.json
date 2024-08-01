@@ -1,18 +1,18 @@
 [
     {
-        "title": "Card 5",
-        "image" : "../../public/img/office/img5.jpg"
-    },
-    {
-        "title": "Card 3",
-        "image" : "../../public/img/office/img3.jpg"
-    },
-    {
         "title": "Card 0",
         "image" : "../../public/img/office/img0.jpg"
     },
     {
-        "title": "Card 4",
-        "image" : "../../public/img/office/img4.jpg"
+        "title": "Card 1",
+        "image" : "../../public/img/office/img1.jpg"
+    },
+    {
+        "title": "Card 2",
+        "image" : "../../public/img/office/img2.jpg"
+    },
+    {
+        "title": "Card 3",
+        "image" : "../../public/img/office/img3.jpg"
     }
 ]
