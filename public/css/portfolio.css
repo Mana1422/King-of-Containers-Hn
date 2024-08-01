@@ -1,15 +1,9 @@
-/* #portadaGallery{
-    background-image: url('../../Images/reyesDelCamino.jpeg');
-    background-size: 100% ;
-    height: 52vh;
-    margin-bottom: 2vh;
-} */
-
 #portadaGallery img{
     width: 100%;
     height: 60vh;
 }
 
+/* Each section where the images are getting inserted */
 .image-section{
     display: grid;
     grid-template-columns: 25vw 25vw auto auto;

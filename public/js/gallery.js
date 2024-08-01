@@ -74,19 +74,23 @@ function handleLoad(loadBtn, hideBtn, insertArea, dataPath, className) {
         fetch(dataPath)
             .then(response => response.json())
             .then(data => {
+                // Since we already got 4 images from that file 
+                // when the DOM loaded
                 for (let i = 4; i < data.length; i++) {
-                    const card = document.createElement('div');
-                    card.classList.add(className);
+                    const card = document.createElement('div'); // creating the div
+                    card.classList.add(className); // Adding the class name to the div
+                    // Inserting what is going to be inside the div
                     card.innerHTML = `<img src="${data[i].image}" alt="${data[i].title}" onclick="openImg(this.src)">`;
-                    insertArea.appendChild(card);
+                    insertArea.appendChild(card); // inserting the div in the section where we want it to go
                 }
             });
     });
 
+    // Logic for the show less btn 
     hideBtn.addEventListener('click', () => {
-        insertArea.innerHTML = " ";
-        loadBtn.style.display = 'inline';
-        hideBtn.style.display = 'none';
+        insertArea.innerHTML = " "; // It will clear the div w
+        loadBtn.style.display = 'inline'; // show the btn "Show More"
+        hideBtn.style.display = 'none'; // Will hide the "show less btn"
     });
 }
 
