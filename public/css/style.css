@@ -148,6 +148,7 @@ the about us section */
     background-color: black;
     color: white;
     text-align: center;
+    grid-column: span 2;
 }
 
 /* The images above mission and vission */
