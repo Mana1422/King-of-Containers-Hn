@@ -35,6 +35,14 @@
     font-size: 16px;
 }
 
+/* The last section in the footer */
+#copy-rights {
+    background-color: black;
+    color: white;
+    text-align: center;
+    grid-column: span 2;
+}
+
 @media (max-width: 1100px){
     #footer{
         grid-template-columns: 50vw auto;
@@ -51,6 +59,10 @@
         text-align: center;
         margin-top: auto;
         margin-bottom: 2vh;
+    }
+
+    #copy-rights{
+        grid-column: span 1;
     }
 
     #contact-info a {

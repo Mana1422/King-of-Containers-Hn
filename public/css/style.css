@@ -143,14 +143,6 @@ the about us section */
     grid-template-columns: 50% 50%;
 }
 
-/* The last section in the footer */
-#copy-rights {
-    background-color: black;
-    color: white;
-    text-align: center;
-    grid-column: span 2;
-}
-
 /* The images above mission and vission */
 #values img {
     height: 5vh;
