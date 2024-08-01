@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-body{
+body {
     margin: 0%;
     padding: 0%;
     display: grid;
@@ -10,14 +10,14 @@ body{
     font-family: "Playfair Display", serif;
     /* background-color: black;
      */
-     color: rgb(135, 135, 135); 
+    color: rgb(135, 135, 135);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     color: rgb(215, 215, 0);
 }
 
-#portada{
+#portada {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Portada/puertoAdunero.jpg');
     /* width: 100%; */
     height: 70vh;
@@ -27,11 +27,11 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
 
-#portada h1{
+#portada h1 {
     font-size: 40px;
 }
 
-#portada p{
+#portada p {
     font-size: 30px;
 }
 
@@ -52,61 +52,73 @@ h1, h2, h3, h4, h5, h6{
     transition-delay: 300 ms;
 }
 
-.show{
+.show {
     opacity: 1;
     filter: blur(0);
     transform: translateY(0);
 }
 
-@media (prefers-reduced-motion){
-    .hidden{
+@media (prefers-reduced-motion) {
+    .hidden {
         transition: none;
     }
 }
 
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes slideIn {
-    from { transform: translateY(50px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 
 
 
 /* Section About us */
-#aboutUs{
+#aboutUs {
     display: grid;
     grid-template-columns: 30vw 70vw;
     /* margin: 1vw; */
     text-align: center;
 }
 
-#slogan{
+#slogan {
     font-size: 25px;
 }
 
 
 /* Div where the image in the about us section is */
-#img-about{
- /* text-align: right; */
- margin: auto;
- max-width: 100vw;
+#img-about {
+    /* text-align: right; */
+    margin: auto;
+    max-width: 100vw;
 }
 
 /* the image in the section about us */
-#aboutUs img{
+#aboutUs img {
     width: auto;
     height: 70vh;
 }
 
 /* Description of king of containers in
 the about us section */
-#desc{
+#desc {
     text-align: center;
     text-justify: auto;
     max-width: 100%;
@@ -114,34 +126,35 @@ the about us section */
 }
 
 /* The mission and vision */
-#values{
+#values {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-#copy-rights{
+#copy-rights {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-#values img{
+#values img {
     height: 5vh;
     width: auto;
     /* background-color: white; */
 }
 
 
-@media (max-width: 1100px){
-    #about_desc p{
+@media (max-width: 1100px) {
+    #about_desc p {
         font-size: 15px;
         margin-left: auto;
     }
-    #values{
-       grid-template-columns: 100%; 
+
+    #values {
+        grid-template-columns: 100%;
     }
 
-    #img-about{
+    #img-about {
         margin-left: 2vw;
 
     }
@@ -150,19 +163,19 @@ the about us section */
         height: 80vh;
     } */
 
-    #aboutUs{
+    #aboutUs {
         grid-template-columns: 50vw auto;
     }
 }
 
-@media (max-width: 900px){
-    body{
+@media (max-width: 900px) {
+    body {
         grid-template-rows: 25vh auto auto;
     }
 }
 
-@media (max-width: 700px){
-    #portada{
+@media (max-width: 700px) {
+    #portada {
         display: grid;
         height: 40vh;
         width: auto;
@@ -171,27 +184,30 @@ the about us section */
         place-items: center;
         justify-self: auto;
     }
-#content{
-    overflow-x: hidden;
-}
 
-    #portada h1{
+    #content {
+        row-gap: 1vw;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #portada h1 {
         font-size: 25px;
     }
 
-    #portada p{
+    #portada p {
         font-size: 20px;
     }
 
-    #aboutUs{
+    #aboutUs {
         /* grid-template-rows: 100%; */
         grid-template-columns: 100%;
     }
 
-    #img-about{
-       margin: auto;
-       margin-bottom: 1vh;
+    #img-about {
+        margin: auto;
+        margin-bottom: 1vh;
 
     }
-    
+
 }
