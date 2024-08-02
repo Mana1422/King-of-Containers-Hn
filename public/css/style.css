@@ -150,6 +150,50 @@ the about us section */
     /* background-color: white; */
 }
 
+/* To add animations to
+   Mission and vision logos */
+#mission img {
+    animation-name: run;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+}
+
+#vision img {
+    animation-name: zoom-in;
+ animation-duration: 5s;
+ animation-iteration-count: 10;
+    /* animation-direction:alternate; */
+}
+
+@keyframes run {
+    from {
+        transform: translateX(-20vw);
+    }
+
+    to {
+        transform: translateX(20vw);
+    }
+
+    50% {
+        transform: scale(2, 2);
+    }
+}
+
+@keyframes zoom-in {
+    
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 /* Media queries 
    will adjust the layout when it reaches 1100px
@@ -157,6 +201,7 @@ the about us section */
    to not make any div overlap and damage the 
    presentation of the page */
 @media (max-width: 1100px) {
+
     /* The paragraph in the about us 
      the one talking about the company. */
     #about_desc p {
@@ -182,6 +227,7 @@ the about us section */
 }
 
 @media (max-width: 900px) {
+
     /* To give more space to the navbar */
     body {
         grid-template-rows: 25vh auto auto;
@@ -190,6 +236,7 @@ the about us section */
 
 /* Larger phones view */
 @media (max-width: 700px) {
+
     /* Welcome hero */
     #portada {
         display: grid;
@@ -212,7 +259,7 @@ the about us section */
         /* To fixed the problem 
            of not talking more space
            horizontally */
-        overflow-y: hidden; 
+        overflow-y: hidden;
     }
 
     /* Adjust the fonts in 
