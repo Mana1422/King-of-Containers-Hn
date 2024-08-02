@@ -12,12 +12,16 @@ body {
     /* font-family: "Nunito", sans-serif; */
 
     /* To make the font color silver */
-    color: rgb(135, 135, 135);
+    /* color: rgb(135, 135, 135); */
+    color: #757575
 }
 
 /* To make al the headers color gold */
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(215, 215, 0);
+    /* color: rgb(255, 215, 0); */
+    /* color: #FEBD14; */
+    /* color: rgb(245, 189, 2); */
+    color: #FFD700;
 }
 
 /* The div where the welcome hero goes */
@@ -145,7 +149,7 @@ the about us section */
 
 /* The images above mission and vission */
 #values img {
-    height: 5vh;
+    height: 8vh;
     width: auto;
     /* background-color: white; */
 }

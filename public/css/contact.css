@@ -40,7 +40,7 @@ input, textarea {
 button {
     width: 100%;
     padding: 10px;
-    background-color: rgb(215, 215, 0);
+    background-color: #FFD700;
     color: white;
     border: none;
     border-radius: 3px;
