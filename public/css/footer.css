@@ -2,7 +2,7 @@
     background-color: rgb(111, 1, 1);
     color: white;
     display: grid;
-    grid-template-columns: 24vw auto;
+    grid-template-columns: 50vw auto;
 }
 
 #social-footer{

@@ -9,7 +9,7 @@
     margin: 1vw;
 }
 
-#services p{
+#services p {
     font-size: 15px;
     cursor: pointer;
 }
@@ -18,7 +18,7 @@
     font-size: 30px;
 }
 
-#specialItem{
+#specialItem {
     grid-column: span 2;
 }
 
@@ -46,7 +46,7 @@
     margin: auto;
 }
 
-.opt-service:hover{
+.opt-service:hover {
     font-size: 30px;
     cursor: pointer;
     color: black;
@@ -57,10 +57,98 @@
     width: auto;
 }
 
+/* Icon above the land transportation */
+#landTransport {
+    height: 7vh;
+    animation-name: run;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes run {
+    from {
+        transform: translateX(-10vw);
+    }
+
+    to {
+        transform: translateX(10vw);
+    }
+
+    50% {
+        transform: scale(2, 2);
+    }
+}
+
+
+/* The truck in the oversized section */
+#truckOversized {
+    margin-left: 12%;
+}
+
+/* Section of the icons
+   above the oversize cargo */
+#oversize-serv {
+    display: grid;
+    grid-template-columns: 100%;
+    place-items: center;
+    grid-template-rows: 10% auto;
+    max-height: 10vh;
+    margin-bottom: 0;
+}
+
+/* The cargo in the oversize section */
+#cargoOversized {
+    animation-name: loadCargo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadCargo {
+
+    50% {
+        transform: translateY(1vh);
+    }
+}
+
+#logistics {
+    animation-name: hand1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes hand1 {
+    50% {
+        transform: translateY(-3vh);
+    }
+
+    100% {
+        transform: translateY(2vh);
+    }
+}
+
 @media (max-width: 1100px) {
     #option-services a:hover {
         font-size: 20px;
 
+    }
+
+    #option-services{
+        grid-template-columns: auto;
+    }
+
+    #specialItem {
+        grid-column: span 1;
+    }
+
+    #truckOversized {
+        margin-left: 4%;
+    }
+
+     /* img in service section */
+     #services .service-logo {
+        width: 90%;
+        height: auto;
     }
 }
 
@@ -71,17 +159,17 @@
         margin-right: 0%;
         margin: 0;
 
-        a{
+        a {
             font-size: 20px;
         }
 
 
-        p{
+        p {
             font-size: 15px;
         }
     }
 
-    .opt-service{
+    .opt-service {
         padding: 2vw;
     }
 
@@ -90,12 +178,21 @@
         grid-template-rows: auto;
     }
 
-    #specialItem{
+    #specialItem {
         grid-column: span 1;
     }
 
-    .opt-service{
+    .opt-service {
         margin: 1vw;
+    }
+
+    .icon-service {
+        height: 7vh;
+        width: auto;
+    }
+
+    #truckOversized {
+        margin-left: 5%;
     }
 
     /* img in service section */
@@ -110,7 +207,7 @@
         margin-top: 2vh;
     }
 
-    #img-about img{
+    #img-about img {
         width: 80%;
         height: auto;
     }

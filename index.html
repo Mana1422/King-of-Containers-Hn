@@ -79,7 +79,7 @@
         <br><br>
 
         <!-- Services -->
-        <div id="services" >
+        <div id="services">
             <div id="img-service-section" class="hidden">
                 <img src="./public/img/Services/service1.webp" alt="" class="service-logo">
             </div>
@@ -88,7 +88,7 @@
                 <div id="option-services">
                     <div class="opt-service hidden" onclick="location.href='./app/html/services.html';">
                         <a>
-                            <img src="./public/img/Services/international.png" alt="" class="icon-service">
+                            <img src="./public/img/Services/delivery-truck.png" alt="" class="icon-service" id="landTransport">
                             <br>
                             Land transportation
                         </a>
@@ -96,15 +96,19 @@
                     </div>
                     <div class="opt-service hidden" onclick="location.href='./app/html/services.html';">
                         <a>
-                            <img src="./public/img/Services/oversized.png" alt="" class="icon-service">
-                            <br>
+                            <div id="oversize-serv">
+                                <img src="./public/img/Services/container.png" alt="" class="icon-service" id="cargoOversized">
+                                <img src="./public/img/Services/flat-bed-truck.png" alt="" class="icon-service" id="truckOversized">
+                            </div>
+                            <!-- <img src="./public/img/Services/oversized.png" alt="" class="icon-service"> -->
                             Oversized Cargo
                         </a>
                         <p>Our team is well equiped and with a vast experience to transport any oversize cargo.</p>
                     </div>
-                    <div id="specialItem" class="opt-service hidden" onclick="location.href='./app/html/services.html';">
+                    <div id="specialItem" class="opt-service hidden"
+                        onclick="location.href='./app/html/services.html';">
                         <a>
-                            <img src="./public/img/Services/brokerage.png" alt="" class="icon-service">
+                            <img src="./public/img/Services/brokerage.png" alt="" class="icon-service" id="logistics">
                             <br>
                             Logistics
                         </a>
@@ -120,7 +124,7 @@
         <div class="hidden">
             <!-- Portfolio -->
             <h2 style="text-align: center;">Portfolio</h2>
-    
+
             <!-- Card Slider -->
             <div class="slider">
                 <button class="prev">Prev</button>
@@ -133,13 +137,13 @@
         <br><br><br>
 
         <!-- About us -->
-        <div id="aboutUs" >
+        <div id="aboutUs">
             <div id="img-about" class="hidden">
                 <img src="./public/img/about_us/img0.jpg" alt="">
             </div>
 
             <!-- description about us -->
-            <div id="about_desc" >
+            <div id="about_desc">
 
                 <!-- Description of the company -->
                 <div id="desc" class="hidden">
@@ -158,7 +162,7 @@
 
                     <div id="vision" class="hidden">
                         <h3>
-                            <img src="./public/img/mission&vision/highway.png" alt="">
+                            <img src="./public/img/mission&vision/work-tools.png" alt="" id="vision1">
                             <br>
                             Vision
                         </h3>
@@ -174,7 +178,7 @@
                         <h3>
                             <img src="./public/img/mission&vision/delivery-truck.png" alt="">
                             <br>
-                            Mision
+                            Mission
                         </h3>
                         <p>Our mission is to provide reliable, efficient, and timely <br> container delivery services
                             across
@@ -194,6 +198,7 @@
             </div>
 
         </div>
+
 
 
 
