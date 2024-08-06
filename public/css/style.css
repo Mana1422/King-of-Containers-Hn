@@ -17,7 +17,8 @@ body {
 
 /* To make al the headers color gold */
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(215, 215, 0);
+    /* color: rgb(215, 215, 0); */
+    color: rgb(230, 188, 61);
 }
 
 /* The div where the welcome hero goes */
@@ -155,13 +156,13 @@ the about us section */
 #mission img {
     animation-name: run;
     animation-duration: 5s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
 }
 
 #vision img {
     animation-name: zoom-in;
  animation-duration: 5s;
- animation-iteration-count: 10;
+ animation-iteration-count: infinite;
     /* animation-direction:alternate; */
 }
 

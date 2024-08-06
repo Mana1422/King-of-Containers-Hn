@@ -88,7 +88,7 @@
                 <div id="option-services">
                     <div class="opt-service hidden" onclick="location.href='./app/html/services.html';">
                         <a>
-                            <img src="./public/img/Services/international.png" alt="" class="icon-service">
+                            <img src="./public/img/Services/delivery-truck.png" alt="" class="icon-service" id="landTransport">
                             <br>
                             Land transportation
                         </a>
@@ -96,8 +96,11 @@
                     </div>
                     <div class="opt-service hidden" onclick="location.href='./app/html/services.html';">
                         <a>
-                            <img src="./public/img/Services/oversized.png" alt="" class="icon-service">
-                            <br>
+                            <div id="oversize-serv">
+                                <img src="./public/img/Services/container.png" alt="" class="icon-service" id="cargoOversized">
+                                <img src="./public/img/Services/flat-bed-truck.png" alt="" class="icon-service" id="truckOversized">
+                            </div>
+                            <!-- <img src="./public/img/Services/oversized.png" alt="" class="icon-service"> -->
                             Oversized Cargo
                         </a>
                         <p>Our team is well equiped and with a vast experience to transport any oversize cargo.</p>
@@ -105,7 +108,7 @@
                     <div id="specialItem" class="opt-service hidden"
                         onclick="location.href='./app/html/services.html';">
                         <a>
-                            <img src="./public/img/Services/brokerage.png" alt="" class="icon-service">
+                            <img src="./public/img/Services/brokerage.png" alt="" class="icon-service" id="logistics">
                             <br>
                             Logistics
                         </a>
@@ -195,6 +198,7 @@
             </div>
 
         </div>
+
 
 
 
