@@ -132,6 +132,24 @@
         font-size: 20px;
 
     }
+
+    #option-services{
+        grid-template-columns: auto;
+    }
+
+    #specialItem {
+        grid-column: span 1;
+    }
+
+    #truckOversized {
+        margin-left: 4%;
+    }
+
+     /* img in service section */
+     #services .service-logo {
+        width: 90%;
+        height: auto;
+    }
 }
 
 @media (max-width: 750px) {
