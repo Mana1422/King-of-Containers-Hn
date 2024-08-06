@@ -119,11 +119,11 @@
 
 @keyframes hand1 {
     50% {
-        transform: translateY(-3vh);
+        transform: translateY(-2vh);
     }
 
-    100% {
-        transform: translateY(2vh);
+    80% {
+        transform: translateY(-1vh);
     }
 }
 
