@@ -37,7 +37,7 @@
 
 /* The last section in the footer */
 #copy-rights {
-    background-color: black;
+    background-color: #000000;
     color: white;
     text-align: center;
     grid-column: span 2;
