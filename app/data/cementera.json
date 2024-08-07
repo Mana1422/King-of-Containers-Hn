@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Card 1",
+        "image" : "../../public/img/Projecto-cementera/img1.jpg"
+    },
+    {
+        "title": "Card 2",
+        "image" : "../../public/img/Projecto-cementera/img2.jpg"
+    },
+    {
+        "title": "Card 3",
+        "image" : "../../public/img/Projecto-cementera/img3.jpg"
+    },
+    {
+        "title": "Card 4",
+        "image" : "../../public/img/Projecto-cementera/img4.jpg"
+    }
+]

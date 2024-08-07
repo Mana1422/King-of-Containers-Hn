@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Section where the first group of photos will go
-    const containerSection = document.getElementById('containersGallery');
-    const equipmentSection = document.getElementById('equipmentGallery');
-    const oversizeSection = document.getElementById('oversizedGallery');
-    const officeSection = document.getElementById('officeGallery');
+    const gildanSection = document.getElementById('gildanGallery');
+    const aluconSection = document.getElementById('aluconGallery');
+    const cementeraSection = document.getElementById('cementeraGallery');
+    const fuerzaSection = document.getElementById('fuerzaGallery');
+    const elcatexSection = document.getElementById('elcatexGallery');
+    const patucaSection = document.getElementById('patucaGallery');
+    const nicaraguaSection = document.getElementById('nicaraguaGallery');
 
     function insertImg(dataPath, section) {
         fetch(dataPath) // get the image from that path it is async
@@ -28,10 +31,14 @@ document.addEventListener("DOMContentLoaded", () => {
             })
     }
 
-    insertImg('../../app/data/containers.json', containerSection); //Inserting the containers images
-    insertImg('../../app/data/equipment.json', equipmentSection); // Inserting the Equipment images
-    insertImg('../../app/data/oversize.json', oversizeSection); // Inserting the oversize images
-    insertImg('../../app/data/office.json', officeSection); // Inserting the office images
+    insertImg('../../app/data/gildan.json', gildanSection); //Inserting the containers images
+    insertImg('../../app/data/alucon.json', aluconSection); // Inserting the Equipment images
+    insertImg('../../app/data/cementera.json', cementeraSection); // Inserting the oversize images
+    insertImg('../../app/data/fuerza.json', fuerzaSection); // Inserting the office images
+    insertImg('../../app/data/elcatex.json', elcatexSection); // Inserting the office images
+    insertImg('../../app/data/patuca2.json', patucaSection); // Inserting the office images
+    insertImg('../../app/data/nicaragua.json', nicaraguaSection); // Inserting the office images
+
 
 
 });

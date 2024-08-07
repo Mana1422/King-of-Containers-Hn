@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Card 1",
+        "image" : "../../public/img/Projecto-Alucon/img1.jpg"
+    },
+    {
+        "title": "Card 2",
+        "image" : "../../public/img/Projecto-Alucon/img2.jpg"
+    },
+    {
+        "title": "Card 3",
+        "image" : "../../public/img/Projecto-Alucon/img3.jpg"
+    },
+    {
+        "title": "Card 4",
+        "image" : "../../public/img/Projecto-Alucon/img4.jpg"
+    }
+]

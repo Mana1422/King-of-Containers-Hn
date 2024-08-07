@@ -70,6 +70,11 @@ body{
     display: none;
 }
 
+.image-section img:hover{
+   transform: translateY(-2vh);
+   cursor: pointer;
+}
+
 @media (max-width: 1200px){
     .image-section{
         grid-template-columns: auto auto auto;

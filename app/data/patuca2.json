@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Card 1",
+        "image" : "../../public/img/Projecto-patuca2/img1.jpg"
+    },
+    {
+        "title": "Card 2",
+        "image" : "../../public/img/Projecto-patuca2/img2.jpg"
+    },
+    {
+        "title": "Card 3",
+        "image" : "../../public/img/Projecto-patuca2/img3.jpg"
+    },
+    {
+        "title": "Card 4",
+        "image" : "../../public/img/Projecto-patuca2/img4.jpg"
+    }
+]

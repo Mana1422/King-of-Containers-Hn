@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Card 1",
+        "image" : "../../public/img/Projecto-elcatex/img1.jpg"
+    },
+    {
+        "title": "Card 2",
+        "image" : "../../public/img/Projecto-elcatex/img2.jpg"
+    },
+    {
+        "title": "Card 3",
+        "image" : "../../public/img/Projecto-elcatex/img3.jpg"
+    },
+    {
+        "title": "Card 4",
+        "image" : "../../public/img/Projecto-elcatex/img4.jpg"
+    }
+]
