@@ -1,6 +1,26 @@
-body{
-    background-color: #000000;
+#portadaGallery{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Portada/img28.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover; 
+    height: 70vh;
+    color: white;
+
+    display: grid;
+    place-items: center;
+
+    h1{
+
+        font-size: 60px;
+    }
+    text-align: center;
 }
+
+/* #welcomePortfolio{
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
 
 #portadaGallery img{
     width: 100%;
@@ -105,6 +125,13 @@ body{
 }
 
 @media (max-width: 650px){
+
+    #portadaGallery{
+        height: 50vh;
+        h1{
+            font-size: 50px;
+        }
+    }
 
     #portadaGallery img{
         height: 30vh;
