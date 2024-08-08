@@ -1,13 +1,32 @@
-#cards-Services{
+/* first image with the h1 saying "Services" */
+#serviceImg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/Portada/img29.jpg');
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover; 
+    height: 60vh;
+
     display: grid;
-    grid-template-columns: auto auto auto;
-    margin-bottom: 5vh;
+    place-items: center;
+    font-size: 30px;
+
 }
 
-#serviceImg img{
-    width: 100%;
-    height: 50vh;
+#cards-Services{
+    display: grid;
+    grid-template-columns: 32vw 32vw 32vw;
+    gap: 1vw;
+    margin-bottom: 5vh;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+/* #serviceImg img{
+    width: 100%;
+    height: 70vh;
+} */
 
 .cardServ img{
  width: 10vh;
@@ -19,11 +38,79 @@
     border-right: 1px solid #ddd;
     text-align: center;
     margin: auto;
+
+
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    
+    height: 50vh;
+
+    /* To place everything center */
+    display: grid;
+    place-items: center;
+
+    /* to shape the borders of the cards */
+    border-radius: 30px;
+
+    color: white;
+
+    p{
+        display: none;
+    }
+
+    width: 100%;
+    
 }
 
+.cardServ:hover{
+    p{
+        display: block;
+    }
+
+    cursor: pointer;
+}
+
+/* Card talking about the land transportation */
+#landCard{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/containers/img0.jpg');
+}
+
+/* Card talking about the oversize cargo */
+#oversizeCard{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img//oversized/img3.jpg');
+}
+
+/* Card  talking about logistics */
+#logisticsCard{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/IMG_7239.jpg');
+}
+
+/* Card content */
+/* .cardContent h1{
+    font-size: 100px !important;
+} */
+
 @media (max-width: 650px){
+
+    .cardServ{
+        p{
+            display: block;
+        }
+        height: 50vh;
+        width: 70%;
+    }
+
+    #serviceImg{
+        height: 40vh;
+    
+        font-size: 25px;
+    
+    }
+
     #cards-Services{
         grid-template-columns: 100%;
+        row-gap: 2vh;
     }
 
     #serviceImg img{
